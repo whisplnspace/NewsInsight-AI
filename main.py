@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+from bs4 import BeautifulSoup
 import nltk
 from textblob import TextBlob
 import matplotlib.pyplot as plt
